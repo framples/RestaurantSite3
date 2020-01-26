@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hansama - Home</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="restaurantStyles.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous|Uncial+Antiqua&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+
+    <style type="text/css">
+        .content {
+            background: #ffecb3;
+            font-family: 'Righteous', cursive;
+        }
+
+        .description {
+            width: 40%;
+            margin: auto;
+            text-align: center;
+        }
+
+        .jumbotron h1 {
+            font-size: 2.5em;
+        }
+
+        .jumbotron p {
+            font-size: 1.5em
+        }
+
+        .jumbotron {
+            margin-bottom: 0px;
+            background-color: #bcaaa4;
+            text-align: center;
+            color: black;
+            font-family: 'Righteous', cursive;
+        }
+
+        .aboutImage {
+            border-radius: 25px;
+        }
+
+        a {
+            text-decoration: underline;
+        }
+
+        a:link {
+            color: #ffecb3;
+        }
+
+        a:visited {
+            color: teal;
+        }
+
+        a:hover {
+            font-weight: bold;
+        }
+
+        a:active {
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .nav-pills li {
+            margin-left: 11px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .nav-pills a {
+            text-decoration: underline;
+        }
+
+        .nav-pills a:hover {
+            font-weight: bold;
+        }
+
+        .nav-pills a:active {
+            text-decoration: none;
+        }
+
+        .carousel-caption {
+            color: #ffecb3;
+        }
+    </style>
+</head>
+
+
+
+<body>
+
+    <div class="header">Hansama</div>
+    <ul class="nav nav-pills">
+        <li>
+            <a class="nav-link active text-decoration-none" href="index.html">
+                <i class="fas fa-home"></i>Home
+            </a>
+        </li>
+        <li>
+            <a class="text-decoration-none" href="menu.html">Menu</a>
+        </li>
+        <li>
+            <a class="text-decoration-none" href="contact.html">Contact Us</a>
+        </li>
+    </ul>
+
+    <div class="jumbotron">
+        <h2>We're opening a new location!</h2>
+        <h5>Hansama is coming to Park City in January of 2021!</h5>
+        <noscript>
+            <h2>
+                **This website is best viewed with JavaScript enabled in your browser**<br><br><a
+                    href="http://www.enable-javascript.com/" target="_blank">
+                    Instructions to enable JavaScript</a></h2>
+        </noscript>
+    </div>
+
+
+
+    <div class="carousel-fluid">
+        <div id="demo" class="carousel slide" data-ride="carousel" data-interval="3000">
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+
+                <div class="item carousel-item active">
+
+                    <div class="carousel-caption">
+                        <h2>Coming Soon...</h2>
+                        <h3>We're coming to Park City, UT in 2021!</h3>
+                    </div>
+                </div>
+
+                <div class="item carousel-item">
+
+                    <div class="carousel-caption">
+                        <h3>We're rolling out our seasonal roll! The #9 Roll!</h3>
+
+                    </div>
+                </div>
+
+                <div class="item carousel-item">
+
+                    <div class="carousel-caption">
+                        <h2>Drink of the Month: SG Special Brew</h2>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+
+    <br>
+
+    <p style="text-align:center;">
+        <img src="./images/bannerimg.jpg" width="65%" height="50%" alt="Hansama Dining Area">
+    </p>
+
+
+    <div class="content container-fluid">
+        <div style="text-align: center;padding: 10px">
+        </div>
+
+        <div class="col-md-7 m-auto text-center">
+
+            <h2>A Need for Sushi- | -About Hansama</h2>
+            <h5>When he first visited Steamboat, restaurant owner Peter realized how few restaurants served sushi. He
+                decided to pack his life up from Minnesota and start a small sushi shop on the base of Steamboat. The
+                small two man shop grew quickly and has now become one of the most sought out destinations in the town.
+            </h5><br>
+        </div>
+    </div>
+
+
+    <footer>
+        <p><em>1313 Hansama Blvd, Steamboat Springs, CO</em></p>
+        <p><em>(970) 456-6543</em></p>
+    </footer>
+
+
+
+    <script type="text/javascript" src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+
+</html>

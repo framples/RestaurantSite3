@@ -53,3 +53,7 @@
     5-c. The Drink of the Month is SG Special Brew.
 6. Use the Bootstrap form items for your Contact Us form, validate in Javascript that data has been provided and give a message that the information is valid without submitting it anywhere.
 7. Make sure that users who have JavaScript disabled know that this site is best viewed with JavaScript enabled.
+
+
+## Disclaimer
+This is not a real restaurant and is not marketing for one.  Images used are from DipDipDip Tatsu-Ya in Austin, TX.  Here is their website: https://www.dipdipdip-tatsuya.com/

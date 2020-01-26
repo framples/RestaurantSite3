@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hansama - Menu</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="restaurantStyles.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous|Uncial+Antiqua&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <style type="text/css">
+        .foodItem {
+            margin: auto;
+            padding: 5px;
+            font-family: 'Righteous', cursive;
+            text-align: center;
+        }
+
+        .jumbotron {
+            margin-bottom: 0px;
+            background-color: #bcaaa4;
+            text-align: center;
+            color: black;
+        }
+
+        .title {
+            font-size: 2.5em
+        }
+
+        .menu {
+            background: #263238
+        }
+
+        .card {
+            background: #ffecb3;
+        }
+
+        a {
+            text-decoration: underline;
+        }
+
+        a:link {
+            color: #ffecb3;
+        }
+
+        a:visited {
+            color: teal;
+        }
+
+        a:hover {
+            font-weight: bold;
+        }
+
+        a:active {
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .nav-pills li {
+            margin-left: 11px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .nav-pills a {
+            text-decoration: underline;
+        }
+
+        .nav-pills a:hover {
+            font-weight: bold;
+        }
+
+        .nav-pills a:active {
+            text-decoration: none;
+        }
+
+        caption {
+            caption-side: top;
+            text-align: center;
+        }
+
+        #beverages {
+            background: #ffecb3
+        }
+
+        .carousel-caption {
+            color: #ffecb3;
+        }
+
+        #name {
+            color: #ffecb3
+        }
+    </style>
+
+</head>
+
+
+
+
+<body>
+    <div class="header">Hansama
+    </div>
+    <ul class="nav nav-pills">
+        <li>
+            <a class="text-decoration-none" href="index.html">
+                <i class="fas fa-home"></i>Home
+            </a>
+        </li>
+        <li>
+            <a class="nav-link active text-decoration-none" href="menu.html">Menu</a>
+        </li>
+        <li>
+            <a class="text-decoration-none" href="contact.html">Contact Us</a>
+        </li>
+    </ul>
+    <div class="jumbotron">
+        <h2>We're opening a new location!</h2>
+        <h5>Hansama is coming to Park City in January of 2021!</h5>
+    </div>
+
+    <div class="carousel-fluid">
+        <div id="demo" class="carousel slide" data-ride="carousel" data-interval="3000">
+
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+
+            <div class="carousel-inner">
+
+                <div class="item carousel-item active">
+
+                    <div class="carousel-caption">
+                        <h2>Coming Soon...</h2>
+                        <h3>We're coming to Park City, UT in 2021!</h3>
+                    </div>
+                </div>
+
+                <div class="item carousel-item">
+
+                    <div class="carousel-caption">
+                        <h3>We're rolling out our seasonal roll! The #9 Roll!</h3>
+
+                    </div>
+                </div>
+
+                <div class="item carousel-item">
+
+                    <div class="carousel-caption">
+                        <h2>Drink of the Month: SG Special Brew</h2>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+
+    <div class=" menu container-fluid">
+
+        <noscript>
+            <h2>
+                **This website is best viewed with JavaScript enabled in your browser**<br><br><a
+                    href="http://www.enable-javascript.com/" target="_blank">
+                    Instructions to enable JavaScript</a></h2>
+        </noscript>
+        <div class="row" style="padding-top: 20px;">
+
+            <div class="col-lg-4 col-md-6 mt-2">
+                <div class="card">
+                    <p class="foodItem"><span class="title"><strong>Maki Combo</strong></span><br>
+                        Tuna roll, California roll, yellowtail roll<br>$12.95
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mt-2">
+                <div class="card">
+                    <p class="foodItem"><span class="title"><strong>Tri-Color Sashimi</strong></span><br> Tuna, salmon
+                        and yellowtail<br>$17.95
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mt-2">
+                <div class="card">
+                    <p class="foodItem"><span class="title"><strong>Spicy Combo</strong></span><br>
+                        Spicy tuna roll, spicy salmon roll<br> $14.95
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mt-2">
+                <div class="card">
+                    <p class="foodItem"><span class="title"><strong>Sushi Deluxe
+                            </strong></span><br>
+                        Assorted 10 pcs sushi & tuna roll<br>$10.95
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="col-lg-4 col-md-6 mt-2">
+                <div class="card">
+                    <p class="foodItem"><span class="title"><strong>Boston Roll</strong></span><br>
+                        Salmon, cucumber, crab<br>$14.95
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mt-2">
+                <div class="card">
+                    <p class="foodItem"><span class="title"><strong>Rainbow Roll</strong></span><br>
+                        Avocado, cucumber, crab<br>$12.95
+                    </p>
+                </div>
+            </div>
+
+            <div class="foodItem col-lg-4 col-md-6 mt-2">
+                <table class="table table-light table table-striped" id="beverages">
+                    <tbody>
+
+                        <tr>
+                            <td colspan="2" align="center">
+                                <b>
+                                    <p style="font-size:30px"> Cold Beverages
+                                </b>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Coke Zero</td>
+                            <td>$1.25</td>
+                        </tr>
+                        <tr>
+                            <td>Pepsi Max</td>
+                            <td>$1.25</td>
+                        </tr>
+                        <tr>
+                            <td>Mt.Dew</td>
+                            <td>$1.25</td>
+                        </tr>
+                        <tr>
+                            <td>Cold Brew</td>
+                            <td>$2.85</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="foodItem col-lg-4 col-md-6 mt-2">
+                <table class="table table-light table-striped" id="beverages">
+                    <td colspan="2">
+                        <b>
+                            <p style="font-size:30px"> Hot Beverages</p>
+                            <tbody>
+                                <tr>
+                                    <td>Hot Coco</td>
+                                    <td>$2.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Green Tea</td>
+                                    <td>$1.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Dark/Light Roast</td>
+                                    <td>$2.30</td>
+                                </tr>
+                                <tr>
+                                    <td>SG Special Brew Coffee</td>
+                                    <td>$3.25</td>
+                                </tr>
+                            </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p><em>1313 Hansama Blvd, Steamboat Springs, CO</em></p>
+        <p><em>(970) 456-6543</em></p>
+    </footer>
+
+
+
+    <script type="text/javascript" src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+
+</html>

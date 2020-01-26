@@ -1,0 +1,61 @@
+.header {
+    color: #ffecb3;
+    padding: 7px;
+    font-size: 4.5em;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+footer{
+	text-align: center;
+    color: #ffecb3 ;
+    font-family: 'Righteous', cursive;
+}
+
+h1, h2, h3{
+    font-family: 'Righteous', cursive;
+}
+
+
+body {
+  background: #263238 ;
+  font-family: 'Righteous', cursive;   
+}
+
+
+
+.item {
+  max-height: 250px;
+}
+
+.contactLink{
+	float: right;
+}
+
+@media (min-width: 992px) {
+  .item {
+    height: 175px;
+  }
+    
+label{
+  text-align: right;
+}
+}
+
+@media (max-width: 992px) {
+  .item {
+    height: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .item {
+    height: 200px;
+  }
+}
+
+@media (min-width: 500px) {
+  label{
+    text-align: right;
+  }
+}
