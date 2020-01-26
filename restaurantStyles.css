@@ -59,3 +59,9 @@ label{
     text-align: right;
   }
 }
+
+hr {
+    margin: 0px;
+    border-color: #ffecb3;
+    border-style: solid;
+}
